@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fire_work_style.css">
+    <meta charset="utf-8" />
+    <title>Happy Birthday to You!</title>
+    <style>
+      #button {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 30%;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #button:hover {background-color: #3e8e41}
+
+    #button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    </style>
+
+  </head>
+  <body>
+    <h3>Lướt xuống điii, sau đó ấn nút nhé!!!</h3>
+    <div class="button">
+      <button id="button" onclick="window.location.href='Heart.html'">Đặc biệt</button>
+    </div>
+    <script src="particle.js"></script>
+    <script src="firework.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
