@@ -64,3 +64,9 @@ h1.made{
   margin-bottom: 30px;
   color: #9eb6ff;
 }
+
+div.loi-chuc h3 {
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+}
